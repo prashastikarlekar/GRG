@@ -1,0 +1,17 @@
+/** @format */
+@font-face {
+	font-family: Druk Wide;
+	src: url("../../public/fonts/drukwide-medium-trial-webfont.woff");
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-family: "Druk Wide";
+	font-size: 14px;
+	color: white;
+	font-weight: 500;
+	line-height: 183%;
+	margin: 16px 62px;
+}
