@@ -1,0 +1,10 @@
+/** @format */
+
+.bike {
+	display: flex;
+}
+.vector {
+	position: absolute;
+	top: 68%;
+	left: -0.5%;
+}

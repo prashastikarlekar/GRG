@@ -11,7 +11,7 @@ export default function AnimatedBrand() {
 		// console.log(el2);
 
 		const el = document.querySelector(".text");
-		console.log(el);
+		// console.log(el);
 		el.innerHTML = el.innerText
 			.split("")
 			.map(
