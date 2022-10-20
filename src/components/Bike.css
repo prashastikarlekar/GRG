@@ -1,12 +1,8 @@
 /** @format */
 
-/* .bikeCol {
-	display: flex;
-} */
 #bikeImage {
 	max-width: 100%;
 	min-height: 100%;
-	/* width: auto; */
 }
 .bikerow {
 	padding-top: 25px;

@@ -4,14 +4,6 @@
 	src: url("../../public/fonts/drukwide-medium-trial-webfont.woff");
 }
 .category {
-	/* writing-mode: vertical-lr;
-	
-	/* white-space: nowrap; */
-	/* position: absolute; */
-	/* left: -35px; */
-	/* bottom: 35px; */
-	/* transform: rotate(270deg);
-	 */
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
 	font-size: 20px;

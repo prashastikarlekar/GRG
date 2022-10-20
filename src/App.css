@@ -14,9 +14,7 @@
 .App {
 	margin: 0px;
 	padding: 0px;
-	/* text-align: center; */
 	background: url(../public/Gold.png);
-	/* background-color: #060507; */
 	height: 100%;
 
 	/* Center and scale the image nicely */
@@ -39,29 +37,10 @@
 	}
 }
 
-/* .App-header {
-	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-} */
-
 .App-link {
 	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-}
 .bottomRight {
 	min-width: 100%;
 	width: 100%;
@@ -86,7 +65,7 @@
 }
 .photo2 {
 	max-width: 100%;
-	height: 100%;
+	height: 90%;
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,10 +74,6 @@
 .vector {
 	width: 120%;
 	margin-top: -247px;
-
-	/* position: absolute;
-	top: 90%;
-	left: -0.5%; */
 }
 .main-content {
 	padding-left: 0;
