@@ -12,9 +12,13 @@
 	color: white;
 	font-weight: 500;
 	line-height: 183%;
-	margin: 16px 62px;
+	margin-left: 55px;
+	padding-top: 16px;
+	/* margin: 16px 62px; */
 }
 
 .my-navbar {
 	background-color: #060507;
+	margin: 0px;
+	margin-left: -15px;
 }

@@ -7,7 +7,7 @@
 	display: flex;
 	justify-content: space-between;
 	/* width: 100%; */
-
+	padding-top: 10%;
 	font-family: Druk Wide;
 	color: white;
 	font-size: 22px;
@@ -21,6 +21,7 @@ input[type="range"] {
 	width: 100%;
 }
 .info-text {
+	padding-top: 15%;
 	color: white;
 }
 
@@ -33,4 +34,8 @@ input[type="range"] {
 	font-style: normal;
 	display: flex;
 	align-items: center;
+}
+
+#photo3 {
+	min-height: 80%;
 }

@@ -3,6 +3,8 @@
 	background-color: "#060507";
 }
 .circle {
+	margin-left: -220%;
+	margin-top: 40px;
 	position: relative;
 	width: 200px;
 	height: 200px;

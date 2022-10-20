@@ -27,7 +27,7 @@ export default function InfoBlock() {
 					</div>
 				</div>
 				<div className='col-lg-2'>
-					<img src='photo 3.png' alt='' />
+					<img id='photo3' src='photo 3.png' alt='' />
 				</div>
 			</div>
 		</div>
