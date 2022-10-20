@@ -12,13 +12,12 @@ export default function Bike() {
 					<span>
 						<AnimatedBrand />
 					</span>
+					{/* <img className='vector' src='VECTOR.png' alt='bike' /> */}
 				</div>
 
 				{/* <div className='col-lg-3'>
 					<img src='photo 2.png' alt='bike' />
 				</div> */}
-
-				<img className='vector' src='VECTOR.png' alt='bike' />
 			</div>
 		</>
 	);

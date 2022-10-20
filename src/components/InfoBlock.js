@@ -10,17 +10,26 @@ export default function InfoBlock() {
 	const [data, setData] = useState(Data);
 
 	return (
-		<div className='main'>
-			<div>&lt;</div>
-			<div>2</div>
-			<div>
-				<input name='range' type='range' min='2' max='10' step='1' />
+		<div className='container info-block'>
+			<div className='row'>
+				<div className='main col-lg-4'>
+					<div>&lt;&nbsp;&nbsp;</div>
+					<div>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+					<div>
+						<input name='range' type='range' min='2' max='20' step='1' />
+					</div>
+					<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10</div>
+					<div>&nbsp;&nbsp;&gt;</div>
+				</div>
+				<div className='col-lg-6 '>
+					<div id='text' className='info-text'>
+						{text}
+					</div>
+				</div>
+				<div className='col-lg-2'>
+					<img src='photo 3.png' alt='' />
+				</div>
 			</div>
-			<div>10</div>
-			<div>&gt;</div>
-
-			<div id='text'>{text}</div>
-			<img src='photo 3.png' alt='' />
 		</div>
 	);
 }

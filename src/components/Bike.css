@@ -1,12 +1,10 @@
 /** @format */
 
-.bike {
-	display: flex;
-}
 .vector {
-	position: absolute;
+	max-width: 90%;
+	/* position: absolute;
 	top: 90%;
-	left: -0.5%;
+	left: -0.5%; */
 }
 
 .bikeCol {

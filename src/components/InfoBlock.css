@@ -6,8 +6,8 @@
 .main {
 	display: flex;
 	justify-content: space-between;
-	width: 74%;
-	margin: 152px 10px 0px 10px;
+	/* width: 100%; */
+
 	font-family: Druk Wide;
 	color: white;
 	font-size: 22px;
@@ -20,7 +20,12 @@ input[type="range"] {
 	/* background-color: orange; */
 	width: 100%;
 }
+.info-text {
+	color: white;
+}
+
 #text {
+	margin-left: 55px;
 	font-size: 12px;
 	font-family: "Montserrat";
 	inline-size: 406px;

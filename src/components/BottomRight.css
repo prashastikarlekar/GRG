@@ -1,21 +1,22 @@
 /** @format */
-
+@font-face {
+	font-family: Druk Wide;
+	src: url("../../public/fonts/drukwide-medium-trial-webfont.woff");
+}
 .category {
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
 	writing-mode: lr-tb;
-	position: absolute;
-	left: -35px;
-	bottom: 35px;
+	/* position: absolute; */
+	/* left: -35px; */
+	/* bottom: 35px; */
 	font-size: 16px;
 }
-.bottomRight {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
+
 .c {
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-color: black;
 	color: white;
 }
@@ -23,7 +24,8 @@
 	font-size: 9px;
 }
 .y {
-	font-size: 40px;
+	font-family: Druk Wide;
+	font-size: 35px;
 }
 .z {
 	font-size: 9px;
