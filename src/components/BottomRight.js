@@ -12,8 +12,8 @@ const BottomRight = ({ data }) => {
 				return (
 					<>
 						<div className='c'>
-							<div className='row c-row ' key={category}>
-								<div className='col-lg-2'>
+							<div className='row' key={category}>
+								<div className='col-lg-2 p-0 catBlock'>
 									<p className='category'>{category}</p>
 								</div>
 								<div className='col-lg-10'>

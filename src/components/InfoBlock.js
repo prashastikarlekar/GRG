@@ -10,7 +10,7 @@ export default function InfoBlock() {
 	const [data, setData] = useState(Data);
 
 	return (
-		<div className='container info-block'>
+		<div className='container ml-0 info-block'>
 			<div className='row'>
 				<div className='main col-lg-4'>
 					<div>&lt;&nbsp;&nbsp;</div>

@@ -93,7 +93,8 @@
 }
 
 .vector {
-	min-width: 100%;
+	width: 120%;
+	margin-top: -247px;
 
 	/* position: absolute;
 	top: 90%;
