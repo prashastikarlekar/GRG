@@ -1,0 +1,30 @@
+/** @format */
+
+.category {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	writing-mode: lr-tb;
+	position: absolute;
+	left: -35px;
+	bottom: 35px;
+	font-size: 16px;
+}
+.bottomRight {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.c {
+	background-color: black;
+	color: white;
+}
+.x {
+	font-size: 9px;
+}
+.y {
+	font-size: 40px;
+}
+.z {
+	font-size: 9px;
+}

@@ -22,12 +22,12 @@ export default function AnimatedBrand() {
 	}, []);
 
 	return (
-		<div className='main'>
-			<div className='circle'>
-				<div ref={ref} className='text'>
+		<span className='animation'>
+			<span className='circle'>
+				<span ref={ref} className='text'>
 					<p>MOTORCYCLE MONTBLANC</p>
-				</div>
-			</div>
-		</div>
+				</span>
+			</span>
+		</span>
 	);
 }

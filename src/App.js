@@ -15,12 +15,16 @@ function App() {
 			<div>
 				<img className='bg' src='Gold.png' alt=''></img>
 			</div>
+
 			<NavBar></NavBar>
 			<Bike />
+			<div className='bottomRight'>
+				<BottomRight data={data} />
+			</div>
+
 			<div>
 				<InfoBlock />
 			</div>
-			<BottomRight data={data} />
 		</div>
 	);
 }

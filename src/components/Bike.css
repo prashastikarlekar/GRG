@@ -5,6 +5,10 @@
 }
 .vector {
 	position: absolute;
-	top: 68%;
+	top: 90%;
 	left: -0.5%;
+}
+
+.bikeCol {
+	display: flex;
 }

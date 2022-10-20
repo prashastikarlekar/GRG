@@ -21,7 +21,6 @@ export default function InfoBlock() {
 
 			<div id='text'>{text}</div>
 			<img src='photo 3.png' alt='' />
-			<BottomRight data={data} />
 		</div>
 	);
 }

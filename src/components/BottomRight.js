@@ -1,24 +1,33 @@
 /** @format */
 
 import React from "react";
-
-export default function BottomRight({ data }) {
+import "./BottomRight.css";
+const BottomRight = ({ data }) => {
 	console.log(data);
-	{
-		data.map((currentElement) => {
-			const { category, x, y, z } = currentElement;
+	return (
+		<>
+			{data.map((currentElement) => {
+				const { category, x, y, z } = currentElement;
 
-			return (
-				<div id='bottomright' className='container'>
-					<div className='card' key={category}>
-						<div className='card-body'>
-							<h5 className='card-title'>{x}</h5>
-							<h6 className='card-subtitle mb-2 text-muted'>{y}</h6>
-							<p className='card-text'>{z}</p>
+				return (
+					<>
+						<div id='bottomright' className='container-fluid'>
+							<div className='row'>
+								<div className='col-lg-12'>
+									<div className='c card h-100' key={category}>
+										<h4 className='category'>{category}</h4>
+										<h5 className='x'>{x}</h5>
+										<h6 className='y'>{y}</h6>
+										<p className='z'>{z}</p>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			);
-		});
-	}
-}
+					</>
+				);
+			})}
+			;
+		</>
+	);
+};
+export default BottomRight;
